@@ -318,4 +318,53 @@
 // </html>
 
 
+// //task
+// var n = +prompt('n'),
+//     m = +prompt('m');
+// console.log( n + m );
+
+// //task
+// function fib(n) {
+//   var a = 1,
+//     b = 0,
+//     x;
+//   for (i = 0; i < n; i++) {
+//     x = a + b;
+//     a = b
+//     b = x;
+//   }
+//   return b;
+// }
+
+// function fibBinet(n) {
+//   var n, m, res;
+//   for (let i = 0; i <= n; i++) {
+//     m = (1 + Math.sqrt(5)) / 2;
+//   }
+//   res = (m**n) / Math.sqrt(5);
+//   return Math.round(res);
+// }
+
+// console.log(fib(77));
+// console.log(fibBinet(77));
+
+// //task
+// var max = 100;
+// console.log(Math.round(Math.random() * max));
+
+// //task
+// var max = 100,
+//     min = 10;
+// console.log(Math.round(min + Math.random() * (max - min)));
+
+// //task
+// var min, max;
+// for (i = 0; i <= 100; i++) {
+//   function randomInteger(min, max) {
+//     var numb = Math.floor(min + Math.random() * (max + 1 - min));
+//     return numb;
+//   }
+//   console.log(randomInteger(5, 100));
+// }
+
 //task
