@@ -367,4 +367,35 @@
 //   console.log(randomInteger(5, 100));
 // }
 
-//task
+// //task
+// function ucFirst(str) {
+//   if (!str)  return str;
+
+//   str = str[0].toUpperCase() + str.slice(1);
+//   return str;
+// }
+
+// console.log(ucFirst('hello'));
+
+// //task
+// function checkSpam(str) {
+//   strLower = str.toLowerCase();
+//   if (strLower.includes('viagra') || strLower.includes('xxx')) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(checkSpam(' bbbo viaGRA Xs XxX'));
+
+// //task
+// function truncate(str, maxlength) {
+//   if (str.length > maxlength) {
+//     var strNew = str.slice(0, maxlength - 3);
+//     return strNew.concat('...');
+//   } else {
+//     return str;
+//   }
+// }
+// console.log(truncate('Hellooooooooooooooooooooo wooooooooooorlddddddddddddd!', 10));
+
